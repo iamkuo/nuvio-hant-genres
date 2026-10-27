@@ -1,0 +1,15 @@
+{
+  "name": "hantgenres",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Nuvio/Stremio metadata addon that proxies an upstream metadata addon and rewrites its genres into Traditional Chinese.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/offline.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
